@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: query-builder-ms-server
+
+server:
+  port: 9999
+
+elastic:
+  hosts: 127.0.0.1
+  ports: 9200
+
+paths:
+  configFilePath: query_builder_config.json
+  uiMappingFileKey: uiMappingFile
